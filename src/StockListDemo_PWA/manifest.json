@@ -1,0 +1,17 @@
+{
+    "short_name": "Lightstreamer Stock-List Demo",
+    "icons": [
+        {
+          "src": "images/icon196x196.png",
+          "type": "image/png",
+          "sizes": "196x196"
+        },
+        {
+            "src": "images/icon1024x1024.png",
+            "type": "image/png",
+            "sizes": "1024x1024"
+          }
+    ],
+    "start_url": "/StockListDemo_Basic/?source=pwa",
+    "display": "standalone"
+}
