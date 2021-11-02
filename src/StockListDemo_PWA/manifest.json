@@ -12,6 +12,6 @@
             "sizes": "1024x1024"
           }
     ],
-    "start_url": "/StockListDemo_Basic/?source=pwa",
+    "start_url": "/StockListDemo_PWA/?source=pwa",
     "display": "standalone"
 }
