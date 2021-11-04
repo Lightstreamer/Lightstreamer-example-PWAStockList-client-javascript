@@ -20,7 +20,11 @@
   font-family: Verdana, Arial, Helvetica, Sans-serif;
   color: #000000;
   font-weight: bold;
-  text-align: right;
+  display: inline-block;
+}
+.tableContainer {
+  overflow-x:auto;
+  margin-top: 1em;
 }
 .tableTitle {
   font-family: Verdana, Arial, Helvetica, Sans-serif;
@@ -77,6 +81,7 @@
   font-weight: normal;
   display: block; 
   margin: 0 auto;  
+  margin-top: 1em;
   color: #FFFFFF;
   padding: 15px;
   border: 0;
