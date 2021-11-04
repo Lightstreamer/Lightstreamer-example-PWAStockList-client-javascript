@@ -27,7 +27,7 @@ If you want to install the demo pointing to your local Lightstreamer Server, fol
 * Launch Lightstreamer Server.
 
 You can deploy the demo to use the Lightstreamer server as Web server or in any external Web Server you are running. 
-If you choose the former case, please create the folders `<LS_HOME>/pages/demos/[demo_name]` then copy here the contents of the `src/[demo_name]` folder of this project.<br>
+If you choose the former case, please create the folders `<LS_HOME>/pages/PWAStockListDemo` then copy here the contents of the `src/PWAStockListDemo` folder of this project.<br>
 The client demo configuration assumes that Lightstreamer Server is at address `https://push.lightstreamer.com`. If you need to target a different Lightstreamer server, for example `localhost`, please search this line:
 ```js
 var lsClient = new LS.LightstreamerClient(protocolToUse+"//push.lightstreamer.com:"+portToUse,"DEMO");
